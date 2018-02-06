@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void main()
+{
+    char a;    
+    if((a<'z'&&a>'a')|(a<'Z'&&a>'A')){
+        printf("Alphabet");
+    }else {
+        printf("No");
+    }
+}
